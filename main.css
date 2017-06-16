@@ -1,0 +1,446 @@
+body{
+	/*background-color: #70bfef;*/
+	/*background-image: url('img/bg_overcast.jpg');
+	background-repeat:no-repeat;*/
+}
+.container{
+	width: 1080px;
+	height: 1920px;
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+/*	background-size: 50% 50%;*/
+/*	background-attachment: fixed;*/
+	background-position: 0 0; 
+	margin: 0 auto;
+}
+.navbar{
+	text-align: center;
+	border: 1px solid;
+	height: 50px;
+	width: 1000px;
+	margin: 0 auto;
+/*	background-color: #008CBA;*/
+}
+
+.navbar-menu1{
+	margin: 0 auto;
+	float: left;
+	padding: 4px;
+	border: 1px solid;
+	width: 66px;
+    height: 44px;
+}
+.navbar-menu2{
+	border: 1px solid;
+	margin: 3px auto;
+	width: 400px;
+	height: 42px;
+
+}
+.navbar-m2-left{
+	border: 1px solid #000;
+	width: 226px;
+	height: 42px;
+	float: left;
+	font-size: 30px;
+	color: #fff;
+}
+
+.navbar-m2-right{
+	border: 1px solid;
+	width: 39px;
+	height: 39px;
+	float: left;
+}
+/*-------------------------------------------------*/
+.today-weather{
+	border: 1px solid;
+	height: 200px;
+	width: 1000px;
+	margin: 80px  auto;
+	margin-bottom: 10px;
+	padding: 0px 0px;
+	text-align: center;
+
+}
+.tw-icon {
+	margin: 0 80px;
+	height: 200px;
+	width: 400px;
+	border:1px solid;
+}
+.tw-icon-top{
+	height: 80px;
+	border: 1px solid;
+}
+.tw-icon-top-pic{
+	border: 1px solid;
+	width: 76px;
+	height: 59px;
+	background:url("img/icon-clouds.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    float: left;
+}
+.tw-icon-top-word{
+	width: 100px;
+	height: 30px;
+	border: 1px solid;
+	float: left;
+	font-size: 30px;
+	margin-top: 20px;
+	color: #fff;
+}
+.tw-icon-bottom{
+	height: 80px;
+	width: 300px;
+	border: 1px solid;
+	font-size: 70px;
+	color: #fff;
+	float: left;
+}
+.tw-icon-bottom p{
+	padding: 0;
+	width: 60px;
+	margin: 0 10px;
+}
+
+
+/*--------------------------------------*/
+.today-weather-basicinfo{
+	text-align: center;
+	border: 1px solid;
+	height: 150px;
+	width: 1000px;
+	margin: 10px auto;
+	padding: 0px 0px;
+	
+}
+.twb-icon {
+	margin: 0 80px;
+	height: 100px;
+	width: 400px;
+	border:1px solid;
+
+}
+.twb-icon-left{
+	width: 130px;
+	height: 100px;
+	border: 1px solid;
+	float: left;
+	margin-right: 10px;
+}
+.twb-icon-left-pic{
+	width: 35px;
+	height: 50px;
+	border: 1px solid;
+	float: left;
+	margin: 10px auto;
+	background:url("img/icon-humidty.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    float: left;
+}
+.twb-icon-left-word{
+	width: 70px;
+	height: 50px;
+	border: 1px solid;
+	float: left;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 10px;
+}
+.twb-icon-right{
+	width: 130px;
+	height: 100px;
+	border: 1px solid;
+	float: left;
+}
+.twb-icon-right-pic{
+	width: 50px;
+	height: 38px;
+	border: 1px solid;
+	float: left;
+	margin: 20px auto;
+	background:url("img/icon-feels.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.twb-icon-right-word{
+	width: 70px;
+	height: 50px;
+	border: 1px solid;
+	float: left;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 10px;
+}
+/*.twb-icon-right-left{
+	height: 50px;
+	width: 60px;
+	border: 1px solid;
+	margin: 10px;
+	background:url("img/icon-feels.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}*/
+.twb-refresh{
+	border: 1px solid;
+	width: 400px;
+	height: 40px;
+	margin: 0 80px;
+	text-align: left;
+}
+/*-------------------------------------*/
+.future-weather{
+	border: 1px solid;
+	height: 450px;
+	width: 1000px;
+	margin: 10px auto;
+	padding: 0px 0px;
+}
+.fw-frame{
+	border: 1px solid rgba(255,255,255,0.5);
+	background: #000000;
+    background: rgba(255,255,255,0.1);
+	border-radius:20px;
+	width: 800px;
+	height: 350px;
+	margin: 0px auto;
+}
+.fw-frame-bar{
+	height: 350px;
+	width: 100px;
+	border: 1px solid;
+	float: left;
+	margin-right: 10px;
+    margin-left: 20px;
+}
+.fw-frame-header{
+	font-size: 20px;
+    padding: 8px;
+    text-align: center;
+}
+.fw-frame-date{
+	text-align: center;
+}
+.fw-frame-icon{
+	padding: 10px;
+	text-align: center;
+}
+.fw-frame-HLtempbar{
+	margin: 0 auto;
+	height: 200px;
+	width: 80px;
+	border: 1px solid;
+}
+/*.fw-frame-hl-bar{
+	border: 1px solid;
+	border-radius: 15px;
+	height: 140px;
+	width: 20px;
+	margin: 5px auto;
+	background-color: #fff;
+
+}*/
+.more{
+	height: 60px;
+	border: 1px solid;
+	margin: 0 auto;
+	text-align: center;
+}
+.more-button{
+	background-color: #008CBA; /* bule */
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px auto;
+    cursor: pointer;
+}
+/*------------------------------------------*/
+.hour-weather{
+	border: 1px solid ;
+	height: 450px;
+	width: 1000px;
+	margin: 10px auto;
+	padding: 0px 0px;
+}
+/*------------------------------------------*/
+.details-weather{
+	border: 1px solid;
+	height: 260px;
+	width: 1000px;
+	margin: 10px auto;
+	padding: 0px 0px;
+}
+.dw-frame{
+	border: 1px solid rgba(255,255,255,0.5);
+	background: #000000;
+    background: rgba(255,255,255,0.1);
+	border-radius:20px;
+	width: 800px;
+	height: 200px;
+	margin: 0px auto;
+}
+.dw-hpv{
+	width: 200px;
+	height: 130px;
+	border: 1px solid;
+	float: left;
+	margin-left:30px;
+	margin-top: 40px;
+}
+.dw-hpv-top1{
+	width: 200px;
+	height: 60px;
+	border: 1px solid;
+}
+.dw-hpv p{
+	padding-left: 60px;
+    font-size: 20px;
+}
+.dw-hpv-top1-pic{
+	width: 45px;
+	height: 60px;
+	border: 1px solid;
+	float: left;
+	margin: 0px auto;
+	background:url("img/icon-humidty.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    float: left;
+}
+.dw-hpv-top1-word{
+	border: 1px solid;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	margin: 0 49px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+.dw-hpv-top2-pic{
+	width: 48px;
+	height: 44px;
+	border: 1px solid;
+	float: left;
+	margin: 13px auto;
+	background:url("img/icon-pressure.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    float: left;
+}
+.dw-hpv-top2-word{
+	border: 1px solid;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	margin-left:54px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+.dw-hpv-top3-pic{
+	width: 56px;
+	height: 35px;
+	border: 1px solid;
+	float: left;
+	margin: 13px auto;
+	background:url("img/icon-visibility.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    float: left;
+}
+.dw-hpv-top3-word{
+	border: 1px solid;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	margin-left: 62px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+/*----------------------------------------------*/
+.other-weather{
+	border: 1px solid;
+	height: 290px;
+	width: 1000px;
+	margin: 10px auto;
+	padding: 0px 0px;
+}
+.ot-frame{
+	border: 1px solid rgba(255,255,255,0.5);
+	background: #000000;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 0 2px #eceaea;
+	border-radius:20px;
+	width: 800px;
+	height: 200px;
+	margin: 0px auto;
+}
+.ot-sun{
+	border: 1px solid;
+	width: 240px;
+	height: 100px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-top: 45px;
+}
+.ot-sunrise{
+	height: 49px;
+	width: 180px;
+	border: 1px solid;
+	margin: 0 auto;
+}
+.ot-sunrise p{
+	float: right;
+	font-size: 20px;
+    padding-right: 20px;
+    margin: 10px;
+}
+.ot-sunset{
+	height: 49px;
+	width: 180px;
+	border: 1px solid;
+	margin: 0 auto;
+}
+.ot-sunset p{
+	float: right;
+	font-size: 20px;
+	padding-right: 20px;
+	margin: 10px;
+}
+.ot-wind{
+	border: 1px solid;
+	border-left: 2px solid #eee;
+	width: 500px;
+	height: 150px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.ot-w-pic{
+	width: 116px;
+	height: 116px;
+	background:url("img/icon-wind.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    margin-top: 10px;
+    float: left;
+}
+.ot-w-word{
+	border: 1px solid;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.ot-w-word p{
+	font-size: 20px;
+}
